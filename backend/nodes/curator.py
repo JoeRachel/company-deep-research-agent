@@ -85,7 +85,7 @@ class Curator:
         return evaluated_docs
 
     async def curate_data(self, state: ResearchState) -> ResearchState:
-        """Curate all collected data based on Tavily scores.  """
+        """Curate all collected data based on   Tavily scores.  """
         company = state.get('company', 'Unknown Company')
         logger.info(f"Starting curation for company: {company}")
         
